@@ -210,7 +210,8 @@ body {
   font-size: 16px;
   display: inline-block;
 }
-/* @media (width < 900px) {
+
+@media (width < 900px) {
   .container {
     max-width: 768px;
     padding: 24px 40px 36px 39px;
@@ -288,7 +289,25 @@ body {
       font-size: 32px;
     }
   }
+  .courses-section {
+    padding: 0 40px 86px 39px;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 32px;
+  }
+  .hero-card {
+    padding: 56px 21px 159px 32px;
+    h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  .footer {
+    padding: 36px 39px 36px 40px;
+  }
 }
+/* 
 @media (width < 450px) {
   .container {
     max-width: 375px;
